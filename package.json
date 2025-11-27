@@ -1,0 +1,24 @@
+{
+  "name": "backup-sender",
+  "version": "1.0.0",
+  "main": "client.js",
+  "scripts": {
+    "start": "node client.js"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "better-sqlite3": "^8.7.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "klaw": "^4.1.0",
+    "mime-types": "^3.0.2",
+    "mkdirp": "^1.0.4",
+    "multer": "1.4.5-lts.2",
+    "raw-body": "^3.0.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "npm:sqlite-async@^1.2.2",
+    "unzipper": "^0.10.14",
+    "uuid": "^9.0.1",
+    "yargs": "^17.7.2"
+  }
+}
